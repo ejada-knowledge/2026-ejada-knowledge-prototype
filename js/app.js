@@ -381,7 +381,7 @@
     app.innerHTML = `
     <div class="container page">
       <div class="page-header">
-        <div class="eyebrow">${esc(exampleBadge())}</div>
+        <div class="eyebrow">${(exampleBadge()}</div>
         <h1 class="page-title">${esc(t("goalScreenTitle"))}</h1>
         <p class="page-subtitle">${esc(t("goalScreenSubtitle"))}</p>
       </div>
